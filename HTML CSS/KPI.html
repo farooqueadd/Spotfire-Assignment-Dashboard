@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rounded Box Cards</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        .card-container {
+            display: flex;
+            gap: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px 20px;
+            text-align: center;
+            width: 200px;
+        }
+        .card .value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #333;
+        }
+        .card .label {
+            font-size: 1rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <div class="value">150</div>
+            <div class="label">Users</div>
+        </div>
+        <div class="card">
+            <div class="value">85%</div>
+            <div class="label">Completion</div>
+        </div>
+        <div class="card">
+            <div class="value">$12K</div>
+            <div class="label">Revenue</div>
+        </div>
+    </div>
+</body>
+</html>
