@@ -35,9 +35,9 @@ Analyse COVID-19 and mortality based on healthcare spending and vaccination acro
 </OL>
 
 <h2 style="color:darkcyan;">Dashboard Snapshots</h2><br><strong>Tab 1: Covid Mortality and Healthcare </strong></br>
-<img src="C:/Users/Farooque Jamal/Documents/Projects/AIQ/Images/Picture4.PNG" alt="Alt Text" width="800"/>
+<img src="C:/Users/Farooque Jamal/Documents/Projects/AIQ/Images/Page 1.png" alt="Alt Text" width="800"/>
 <br><strong>Tab 2 : EDA </strong></br>
-<img src="C:/Users/Farooque Jamal/Documents/Projects/AIQ/Images/page 2.JPG" alt="Alt Text" width="800"/>
+<img src="C:/Users/Farooque Jamal/Documents/Projects/AIQ/Images/page 2.jpg" alt="Alt Text" width="800"/>
 
 <h2 style="color:darkcyan;">Data </h2><br>
 Data is loaded from <br>
