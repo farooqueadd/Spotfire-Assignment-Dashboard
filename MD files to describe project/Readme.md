@@ -70,7 +70,10 @@ Data is loaded from <br>
 </OL>
 
 <h2 style="color:darkcyan;">Model</h2><br>
-CountrywiseCovid19 api data table is left joined with country_code_mapping excel data.<br> Other API data tables are mapped by editing table relationships on state or country.<br><br>
+CountrywiseCovid19 api data table is left joined with country_code_mapping excel data.<br>
+-This is  one to one relationship<br>
+Other API data tables are mapped by editing table relationships on state or country.<br>
+-All of this are many to one relatiosnhip or vice verca<br><br>
 Tranformations used: Filter rows, exclude columns
 
 <h2 style="color:darkcyan;">Custom R/Python functions</h2>
