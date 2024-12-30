@@ -3,7 +3,13 @@ import json
 import pandas as pd
 
 # List of countries to fetch data for
-countries = ["India", "United States", "Brazil", "Germany", "Japan", "South Africa"]
+countries =  [ "India", 
+    "USA", 
+    "Brazil", 
+    "Germany", 
+    "Japan", 
+    "South Africa",
+    "Saudi Arabia" ]
 
 # Function to fetch COVID-19 data for a specific country
 def fetch_country_data(country):
@@ -36,7 +42,7 @@ df['death_rate'] = (df['deaths'] / df['cases']) * 100
 df['vaccination_rate'] = (df['vaccinated'] / df['population']) * 100
 
 # Display DataFrame
-print(df)
+#print(df)
 
 # Export to CSV (optional)
-df.to_csv("covid19_country_specific.csv", index=False)
+#df.to_csv("covid19_country_specific.csv", index=False)
